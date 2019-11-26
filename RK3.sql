@@ -1,10 +1,9 @@
- CREATE TABLE `RK`(	
+CREATE TABLE `RK`(	
  	`country` varchar(50) NOT NULL,
  	`city` varchar(50) NOT NULL,
  	`population` varchar(15) NOT null,
- 	`code` varchar(5) NOT NULL,)
-PRIMARY KEY (`country`, `city`, `population`, `code`)
-DEFAULT UTF-8;
+ 	`code` varchar(5) NOT NULL)
+    DEFAULT CHARSET=utf8;
 
 INSERT INTO `RK` (`country`, `city`, `population`, `code`) VALUES 
 ('RUSSIA', 'MOSKAU', '250MIL', 'RUB'),
