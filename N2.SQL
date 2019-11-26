@@ -18,5 +18,5 @@ INSERT INTO `RK` (`country`, `city`, `population`, `code`) VALUES
 ('USA', 'NYS', '800MIL', 'USD'),
 ('USA', 'BOSTON', '700MIL', 'USD');
 
-UPDATE IN `RK` `population`='150MIL'  WHERE `country`='RUSSIA'
+UPDATE `RK` `population`='150MIL'  WHERE `country`='RUSSIA'
 
