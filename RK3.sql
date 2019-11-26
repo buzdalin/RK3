@@ -17,6 +17,3 @@ INSERT INTO `RK` (`country`, `city`, `population`, `code`) VALUES
 ('POLAND', 'WARSHAWA', '150MIL', 'POD'),
 ('USA', 'NYS', '800MIL', 'USD'),
 ('USA', 'BOSTON', '700MIL', 'USD');
-
-UPDATE `population`='150MIL' IN `RK` WHERE `country`='RUSSIA'
-SELECT * FROM `RK` ORDER BY `country`
